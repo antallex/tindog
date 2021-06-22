@@ -9,7 +9,7 @@ body {
 
 /* -----Nav Bar----- */
 .navbar {
-  padding-bottom: 4.5rem !important;
+  padding-bottom: 4.5em !important;
 }
 
 .navbar-brand {
@@ -92,7 +92,7 @@ body {
 .testimonials-class h2 {
   font-family: 'Montserrat';
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 3em;
   line-height: 1.5;
 }
 
@@ -129,7 +129,9 @@ body {
   text-align: center;
   padding: 100px;
 }
-
+.pricing-header h2{
+  font-size: 2em;
+}
 .pricing-header p {
   color: #8f8f8f;
 }
@@ -167,10 +169,88 @@ body {
 }
 
 /* -----Media----- */
+@media (max-width: 993px) {
+  /* --Top navigation-- */
+    .nav-link{
+      font-size: 1.4em;
+    }
+    .navbar-brand {
+      font-size: 4em !important;
+    }
+    /* --Top text and download buttons-- */
+    .row h1 {
+      font-weight: 800;
+      font-size: 3.8em;
+      line-height: 1.2;
+      margin-bottom: 5%;
+    }
+
+    .download-button {
+      font-size: 1.5em !important;
+      padding: 2% 7% !important;
+    }
+    /* --Features-- */
+    .features-class{
+      font-size: 1.5em;
+    }
+    /* --Slider-- */
+    .testimonials-class{
+      font-size: 1.3em;
+    }
+    .tests-class h2{
+      line-height: 0;
+    }
+    .testimonials-class img{
+      width: 20%
+    }
+    .testimonials-class button{
+      display: none;
+    }
+    .carousel-item {
+      padding: 5% 5px 1%;
+    }
+    .press-class img{
+      margin-top: 7%;
+      width: 22%;
+    }
+    /* --Pricing-- */
+    .pricing-header{
+      font-size: 1.3em;
+      padding-bottom: 5%;
+    }
+    .card h2{
+      font-size: 3em;
+    }
+    .card h3{
+      font-size: 2em;
+    }
+    .card p{
+      font-size: 1.3em;
+    }
+    /* --cta-- */
+    .cta-header {
+      padding: 1% 0 2%;
+      font-size: 2em;
+    }
+
+    .button-bottom {
+      font-size: 1.5em !important;
+      padding: 2% 7% !important;
+    }
+    /* --Footer-- */
+    #footer{
+      font-size: 1.3em;
+      padding-top: 3%;
+      color: #8f8f8f;
+    }
+}
+
+
 @media (max-width: 992px) {
   .title-image {
     display: none;
   }
+}
 
   #title {
     text-align: center;
